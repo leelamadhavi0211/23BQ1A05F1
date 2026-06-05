@@ -1,9 +1,9 @@
 ## Problem Statement
 # Vehicle Maintenance Service Scheduler
    Given a list of Vehicle requiring maintenance each with an operational score and estimated service duration, and daily mechanic hour budget.
-  . Goal : To determine the subset of Vehicles to service to maximise the total operational impact score within the available budget. 
-  . APIS Used:
-     - [http://4.224.186.213/evaluation-service/depots]
+  # Goal : To determine the subset of Vehicles to service to maximise the total operational impact score within the available budget. 
+     # APIS Used:
+      [http://4.224.186.213/evaluation-service/depots]
           . It contains details of Vehicles ID and Mechanic Hours.
       - [http://4.224.186.213/evaluation-service/vehicles]
         . It contains Vehicles TaskID, Duration, Impact Score.
