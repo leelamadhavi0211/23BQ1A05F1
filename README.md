@@ -1,5 +1,14 @@
-## LOGGING MIDDLEWARE
-
+## Problem Statement
+# Vehicle Maintenance Service Scheduler
+   Given a list of Vehicle requiring maintenance each with an operational score and estimated service duration, and daily mechanic hour budget.
+  . Goal : To determine the subset of Vehicles to service to maximise the total operational impact score within the available budget. 
+  . APIS Used:
+     - [http://4.224.186.213/evaluation-service/depots]
+          . It contains details of Vehicles ID and Mechanic Hours.
+      - [http://4.224.186.213/evaluation-service/vehicles]
+        . It contains Vehicles TaskID, Duration, Impact Score.
+## LOGGING MIDDLEWARE:
+  . Logging Middleware is the critical component for building robust and observable applications. Implementing Logging includes operations such as debug,warn,info,error.
 I have successfully done logging mechanisms.
 Logging is a mechanism used to display errors,info,warns,debug messages to users. 
 
