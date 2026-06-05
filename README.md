@@ -1,6 +1,6 @@
 ## Problem Statement
 ### Vehicle Maintenance Service Scheduler
-   Given a list of Vehicle requiring maintenance each with an operational score and estimated service duration, and daily mechanic hour budget.
+   Given a list of Vehicles requiring maintenance, each with an operational score and estimated service duration, and daily mechanic hour budget.
  * **Goal** : To determine the subset of Vehicles to service to maximise the total operational impact score within the available budget. 
  *  **APIS Used:**
       * [http://4.224.186.213/evaluation-service/depots]
@@ -15,7 +15,7 @@ Logging is a mechanism used to display errors,info,warns,debug messages to users
  * 1. Auth
     * Used to check whether it is authorised or not
     * Log("backend","error","auth","Authorisation failed")
-   * This is used in Vehicle_maintanence_scheduler code
+    * This is used in Vehicle_maintanence_scheduler code
  
  * 2. Handler
     * Used to handle the input-output requests from clients
