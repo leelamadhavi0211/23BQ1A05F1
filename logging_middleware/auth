@@ -1,7 +1,0 @@
-{
-  "stack":"backend",
-  "level":"error",
-  "package":"auth",
-  "message":"Authorization failed"
-}
-
