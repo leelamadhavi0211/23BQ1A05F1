@@ -1,0 +1,23 @@
+----Three Tier Architecture-----
+1. Frontend
+    . Used to display the user interface
+    . User interacts with this layer
+    Ex: HTML,CSS,JS, REact
+
+2. Middle Layer(Server/Backend)
+    . Handles business logic and user requests
+. Connects Frontend with Database
+Ex: Java, JS, Pyhton
+ 
+3. Database
+     . Used to store and manaage Data
+  Ex: MongoDB, SQL
+
+-------Web Applications--------
+
+1. Static Web Applications
+  . Any Web Applications doesn't have functionalities 
+
+2. Dynamic Web Applications
+  . Any Web Applications having functionalities
+  

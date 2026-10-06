@@ -1,0 +1,26 @@
+body{
+    margin: 20px;
+    height: 100px;
+    background-color:aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: index 1s linear 2s infinite normal;
+}
+
+h1{
+
+    background-color: lightsalmon;
+}
+
+@keyframes index{
+    0%{
+        background-color: blue;
+    }
+    15%{
+        background-color: blanchedalmond;
+    }
+    30%{background-color: cadetblue;}
+    45%{background-color: chocolate;}
+    75%{background-color: bisque;}
+}

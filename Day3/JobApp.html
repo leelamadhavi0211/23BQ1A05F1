@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Job Application Form</legend>
+        <label>First Name:</label>
+        <input type="text" name="firstName" required>
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastName" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" required>
+        <br><br>
+
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+
+        <label>College Name:</label>
+        <input type="text" name="college" required>
+        <br><br>
+
+
+        <label>State:</label>
+        <select name="state">
+            <option>Select State</option>
+            <option>Andhra Pradesh</option>
+            <option>Telangana</option>
+            <option>Karnataka</option>
+            <option>Tamil Nadu</option>
+            <option>Kerala</option>
+        </select>
+        <br><br>
+
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" name="skills" value="java"> Java
+        <input type="checkbox" name="skills" value="springboot"> Spring Boot
+        <input type="checkbox" name="skills" value="api"> API Integration
+        <input type="checkbox" name="skills" value="postman"> Postman
+        <input type="checkbox" name="skills" value="sql"> SQL
+        <input type="checkbox" name="skills" value="mysql"> MySQL
+        <input type="checkbox" name="skills" value="react"> React
+        <br><br>
+
+
+        <label>Languages:</label>
+        <br>
+        <input type="checkbox" name="language" value="english"> English
+        <input type="checkbox" name="language" value="telugu"> Telugu
+        <input type="checkbox" name="language" value="kannada"> Kannada
+        <input type="checkbox" name="language" value="hindi"> Hindi
+        <br><br>
+
+
+        <label>Resume:</label>
+        <input type="file" name="resume">
+        <br><br>
+
+
+         <button type="submit">Apply</button>
+        <button type="reset">Reset</button>
+    </fieldset>
+
+    </form>
+
+</body>
+</html>

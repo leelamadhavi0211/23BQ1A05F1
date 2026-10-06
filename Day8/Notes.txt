@@ -1,0 +1,19 @@
+@keyframe myName{
+    from[font-size:20px;]
+    to[font-size:40px;]
+}
+
+% in Animation
+    
+@keyframe myName{
+    0%{font-size:20px;}
+    50%{font-size:30px;}
+    100%{font-size:40px;}
+}
+
+Position 
+- static: default Position
+- relative: top,bottom,left,z-index will work
+- absolute: Positioned relative to closest positioned ancestor
+- fixed: positioned relative to browser
+- sticky: positioned based on users scroll position

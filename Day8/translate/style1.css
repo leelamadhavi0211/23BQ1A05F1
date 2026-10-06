@@ -1,0 +1,18 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 20px lightgoldenrodyellow;
+    border-radius:50%;
+    animation: box 2s linear 2s infinite normal;
+
+}
+
+@keyframes box{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateY(300px);
+    }
+}
